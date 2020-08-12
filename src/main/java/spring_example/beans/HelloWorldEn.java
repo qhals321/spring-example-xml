@@ -1,8 +1,10 @@
 package spring_example.beans;
 
+import org.springframework.stereotype.Component;
+
 public class HelloWorldEn implements HelloWorld{
     @Override
-    public void sayhello() {
-        System.out.println("hi~~~");
+    public void sayHello() {
+        System.out.println("hello~~!!~!");
     }
 }
